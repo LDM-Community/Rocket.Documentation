@@ -11,5 +11,5 @@ With a built-in permission system and growing plugin ecosystem, RocketMod aims t
 This documentation contains useful information about how to **setup** a RocketMod server, but also covers basics in how to **develop** custom plugins for RocketMod. 
 Feel free to extend or correct the documentation.
 
-If you want do download the latest version of RocketMod, head over to our [website](https://rocketmod.net/get-rocket).
-For all official RocketMod plugins, go to the plugin [repository](https://hub.rocketmod.net).
+If you want do download the latest version of RocketMod, head over to the [RocketMod GitHub release page](https://github.com/RocketMod/Rocket.Unturned/releases).
+For all official RocketMod plugins, go to the [Reddit Repository List](https://www.reddit.com/r/rocketmod/comments/ek4i7b/list_of_plugins_from_the_old_repository/).
