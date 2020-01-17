@@ -66,6 +66,8 @@ namespace ExamplePlugin
     }
 }
 ```
-> **Note**: I've added 2 more usings to the top of `ExamplePlugins.cs` (`System` and `Rocket.Core.Logging`)  
+!!! note
+    I've added 2 more usings to the top of `ExamplePlugins.cs` (`System` and `Rocket.Core.Logging`)  
 
-> **Note**: `Assembly.GetName().Version` returns your Assembly Version. You can change it in `AssemblyInfo.cs`. You can find under `Properties` in Visual Studio's solution explorer.
+!!! note
+    `Assembly.GetName().Version` returns your Assembly Version. You can change it in `AssemblyInfo.cs`. You can find under `Properties` in Visual Studio's solution explorer.
