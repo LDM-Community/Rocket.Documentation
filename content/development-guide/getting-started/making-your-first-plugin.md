@@ -31,7 +31,7 @@ After that rename the pre-existing Class1.cs file to ExamplePlugin.cs from the s
 
 We're now gonna start by making ExamplePlugin inherit from `RocketPlugin`, so your `ExamplePlugin.cs` should look like this now.
 
-```cs
+```csharp
 using Rocket.Core.Plugins;
 
 namespace ExamplePlugin
@@ -45,7 +45,7 @@ namespace ExamplePlugin
 
 Now for the beginning we're gonna send a basic logger message when the plugin loads and unloads. For that you have to override `void Load()` and `void Unload()` methods like below and add your message.
 
-```cs
+```csharp
 using System;
 using Rocket.Core.Logging;
 using Rocket.Core.Plugins;
