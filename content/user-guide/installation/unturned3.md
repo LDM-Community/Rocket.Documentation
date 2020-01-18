@@ -1,7 +1,9 @@
 # Installing RocketMod for Unturned
 
 # Downloading RocketMod
-We will start by downlading the lastest RocketMod build from [AppVeyor](https://ci.appveyor.com/project/RocketMod/rocket-unturned/build/artifacts). From here, download the `Rocket.Unturned-5.0.0.xxx.zip`.
+We will start by downlading the lastest RocketMod build from [GitHub](https://github.com/RocketMod/Rocket.Unturned/releases). From here, download the `Rocket.Unturned.zip`, underneath `RocketMod Legacy #XXXX`.
+
+Or alternatively, from [this](https://github.com/RocketMod/Rocket.Unturned/releases/download/4.9.3.0/Rocket.Unturned.zip).
 
 # Installing RocketMod
 Open your servers Unturned directory and go to the `Modules` folder. Extract the contents of the freshly downloaded zip to here.
