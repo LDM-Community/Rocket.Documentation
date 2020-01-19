@@ -1,33 +1,8 @@
 ## Installing plugins on your server
 
-## Manual Install
+As official Rocket plugins Harbor has been closed, you now have to look for plugins to download elsewhere. You can try finding them by searching for `unturned plugin` on Github.com Then You can download the latest release of the plugin like shown in the picture below  
 
-First start by downlading the plugin from your chosen source. After that add the `plugin-name.dll` to the `Rocket/Plugins` folder in your server. If the plugin came with libraries then add all those .dll to the `Rocket/Libraries` folder. Once thats done start your server and wait for all the plugins configuration files to generate, after its on you can shutdown and go to `Rocket/Plugins/plugin-name` and edit the `plugin-name.Configuration.xxx`.
+![](https://i.imgur.com/amTk7gI.png)
 
-## From Console
-You can run the following command to install and manage plugins from [RocketMod Harbor](https://harbor.rocketmod.net):
-
-### Install
-Downloads and installs a plugin.
-```
-rocket install <plugin-name>
-```
-
-**Example:**
-```
-rocket install uconomy
-```
-
-### Remove
-Removes a plugin.
-
-```
-rocket remove <plugin-name>
-```
-
-### Updating
-Updates a plugin.
-
-```
-rocket update <plugin-name>
-```
+However some plugins' repositories don't have releases then you have to build a plugin yourself.  
+All plugins' git repos, that were on **Rocket Harbor**, are listed on [Reddit Repository List](https://www.reddit.com/r/rocketmod/comments/ek4i7b/list_of_plugins_from_the_old_repository/)   
