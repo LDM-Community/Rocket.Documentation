@@ -32,8 +32,6 @@ nav:
             - Migration Guide: development-guide/misc/migration-guide.md
             - List of all Services: development-guide/misc/services.md
             - List of all Events: development-guide/misc/events.md
-        - Game Implementations:
-            - Creating a new implementation: development-guide/game-implementations/creating-a-new-implementation.md
     - About:
         - Documentation: about/documentation.md
 
