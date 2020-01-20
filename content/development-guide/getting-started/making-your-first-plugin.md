@@ -45,6 +45,9 @@ namespace ExamplePlugin
 
 Now for the beginning we're gonna send a basic logger message when the plugin loads and unloads. For that you have to override `void Load()` and `void Unload()` methods like below and add your message.
 
+!!! note
+    I've added 2 more usings to the top of `ExamplePlugins.cs` (`System` and `Rocket.Core.Logging`)  
+
 ```csharp
 using System;
 using Rocket.Core.Logging;
@@ -66,8 +69,6 @@ namespace ExamplePlugin
     }
 }
 ```
-!!! note
-    I've added 2 more usings to the top of `ExamplePlugins.cs` (`System` and `Rocket.Core.Logging`)  
 
 !!! note
     `Assembly.GetName().Version` returns your Assembly Version. You can change it in `AssemblyInfo.cs`. You can find under `Properties` in Visual Studio's solution explorer.
