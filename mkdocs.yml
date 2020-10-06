@@ -1,23 +1,23 @@
-site_name: RocketMod Documentation
-copyright: 'RocketMod is licensed under <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/">CC BY-NC-ND 4.0</a><br>This documentation is licensed under <a href="http://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a>'
+site_name: LDM Documentation
+# copyright: 'RocketMod is licensed under <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/">CC BY-NC-ND 4.0</a><br>This documentation is licensed under <a href="http://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a>'
 docs_dir: 'content'
-repo_name: 'RocketMod/Rocket'
-repo_url: 'https://github.com/RocketMod/Rocket'
-edit_uri: 'https://github.com/RestoreMonarchyCommunity/Rocket.Documentation/edit/master/content/'
+repo_name: 'LDM Community'
+repo_url: 'https://github.com/LDM-Community'
+edit_uri: 'https://github.com/LDM-Community'
+extra_css:
+  - stylesheets/extra.css
 nav:
     - Home: index.md
     - User Guide:
-        - Installation:
-            - Unturned 3: user-guide/installation/unturned3.md
-            - Eco: user-guide/installation/eco.md
-        - Configuration: 
-            - Configurations: user-guide/configuration/configurations.md
-            - Translations: user-guide/configuration/translations.md
-            - Permissions: user-guide/configuration/permissions.md
-            - Plugins: user-guide/configuration/plugins.md
-        - Plugins: 
-            - Installation: user-guide/plugins/installation.md
-        - Support: user-guide/support.md
+        - Installation: user-guide/installation.md
+        #- Configuration: 
+            #- Configurations: user-guide/configuration/configurations.md
+            #- Translations: user-guide/configuration/translations.md
+            #- Permissions: user-guide/configuration/permissions.md
+            #- Plugins: user-guide/configuration/plugins.md
+        #- Plugins: 
+            #- Installation: user-guide/plugins/installation.md
+        #- Support: user-guide/support.md
     - Development Guide:
         - Getting Started:
             - Making your first plugin: development-guide/getting-started/making-your-first-plugin.md
@@ -28,20 +28,22 @@ nav:
             # - Configurations: development-guide/getting-started/configurations.md
             # - Permissions: development-guide/getting-started/permissions.md
             # - Database: development-guide/getting-started/database.md
-        - Misc:
-            - Migration Guide: development-guide/misc/migration-guide.md
-            - List of all Services: development-guide/misc/services.md
-            - List of all Events: development-guide/misc/events.md
+        #- Misc:
+            #- Migration Guide: development-guide/misc/migration-guide.md
+            #- List of all Services: development-guide/misc/services.md
+            #- List of all Events: development-guide/misc/events.md
     - About:
         - Documentation: about/documentation.md
 
 theme:
+  icon:
+    repo: fontawesome/brands/github
   custom_dir: 'theme'
   name: 'material'
-  palette:
-    primary: 'cyan'
-    accent: 'light blue'
-  logo: 'images/rocket.svg' 
+  #palette:
+    #primary: 'cyan'
+    #accent: 'light blue'
+  logo: 'images/LDM-Center.png' 
   language: 'en'
   feature:
     tabs: true
