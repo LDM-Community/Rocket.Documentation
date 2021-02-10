@@ -1,5 +1,4 @@
-# Rocket.Documentation Fork
-This repository is forked and hosted by Restore Monarchy Community. Feel free to contribute changes and additions!
-Set up Jenkins for http://rocketmod.restoremonarchy.com so it's automatically updated along with this repository commits!  
+# LDM/Rocket Documentation
+This is the repo corresponding to the documentation provided at https://docs.ldmcommunity.tk/. Maintained by the LDM Community, feel free to make changes and suggest edits. More to come.
 
-Original archived repository: https://github.com/RocketMod/Rocket.Documentation
+Forked (with permission) from: https://github.com/RestoreMonarchyCommunity/Rocket.Documentation
